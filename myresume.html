@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        
+
+        /*phone screen*/
+        @media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+            .welcome {
+            background-color: #9b4840;
+            position: sticky;
+            top: 0;
+            color: #fff;
+            font-size: 30px;
+        }
+        .welzz {
+            animation: slideleft 2s linear forwards infinite;
+        }
+        @keyframes slideleft {
+            0% {
+                transform: translate(100px);
+            }
+            100% {
+                transform: translate(0);
+                opacity: 1;
+            }
+        }
+
+        body{
+            background-color: #ff730063;
+        }
+        .header{
+            display: flex;
+            /* justify-content: center; */
+            margin: 10px;
+            align-items: center;
+        }
+        .header img{
+            width: 80px;
+            margin: 25px;
+            border-radius: 30%;
+        }
+        button {
+            color: #fff;
+            width: 90px;
+            padding: 8px 0;
+            text-align: center;
+            margin: 5px;
+            border-radius: 20px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #9b4840;
+            background: #9b4840;
+            cursor: pointer;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+        }
+        #context {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3px;
+            padding: 20px 5px;
+            border-radius: 15px;
+        }
+        .contract1 img {
+            width: 100px;
+        }
+        /* #context p{
+            padding: 2px;
+            font-size: 2px;
+            
+        } */
+        .dev {
+            color: #9b4840;
+            font-size: 10px;
+        }
+        .contract1, h2{
+            font-size: 13px;
+        }
+        .lorem{
+            font-size: 7px;
+        }
+
+        }
+
+
+
+        /* Laptop screen*/
+        @media only screen and (min-device-width : 1030px) and (max-device-width : 1336px){
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+            .welcome {
+            background-color: #9b4840;
+            position: sticky;
+            top: 0;
+            color: #fff;
+            font-size: 40px;
+        }
+        .welz {
+            animation: slideleft 2s linear forwards infinite;
+        }
+        @keyframes slideleft {
+            0% {
+                transform: translate(100px);
+            }
+            100% {
+                transform: translate(0);
+                opacity: 1;
+            }
+        }
+
+        body{
+            background-color: #ff730063;
+        }
+        .header{
+            display: flex;
+            /* justify-content: center; */
+            margin: 40px;
+            align-items: center;
+        }
+        .header img{
+            width: 230px;
+            margin: 40px;
+            border-radius: 30%;
+        }
+        button {
+            color: #fff;
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 10px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #9b4840;
+            background: #9b4840;
+            cursor: pointer;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+        }
+        #context {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 100px 50px;
+            border-radius: 20px;
+        }
+        .contract1 img {
+            width: 400px;
+        }
+        #context p{
+            padding: 20px;
+            font-size: 10px;
+            
+        }
+        .dev {
+            color: #9b4840;
+        }
+        
+        }
+
+        
+
+        
+    </style>
+<body>
+    <div class="welcome">
+        <h1 class="welz">WELCOME</h1>
+    </div>
+        <div class="header">
+            <div class="img">
+                <img src="./images/7.jpeg" alt="my picture">
+            </div>
+            <div class="resume">
+                <a href="#"><button type="button">ABOUT ME</button></a><br>
+                <a href="#"><button type="button">MY RESUME</button></a>
+            </div>
+            <div>
+                <!-- <h2>WHY I'M QUALIFY FOR THE TASK 💻💪</h2> -->
+            </div>    
+        </div>
+        <div class="dev">
+            <h1>WHAT I CAN OFFER AS A WEBSITE DEVELOPER:</h1>
+        </div>
+        <div>
+            
+            <P class="lorem">
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Nulla a ex corrupti cumque labore
+                 cum neque, suscipit voluptates quaerat nostrum assumenda 
+                 loc
+                 onsectetur temporibus debitis praesentium, 
+                obcaecati dolore perspiciatis vero molestias.
+                Lorem ipsum dolor, sit amet consectetur adipisicing 
+                elit. Maiores, odio excepturi eum dolor deleniti modi 
+                consequatur ad laboriosam odit voluptatum impedit quasi 
+                dicta praesentium reprehenderit eveniet. Earum vel 
+                eaque vitae?
+            </P>
+        </div>
+
+        <section id="context">
+            <div class="contract1">
+                <img src="./images/Oblozhka-9-768x434.png" alt="">
+                <h2>
+                    BUILD A TEMPLATE WITH UX DESIGN WITH GOOD FEATURES
+                </h2>
+                <p class="contractP">
+                    UX design is vital as during the interaction with the 
+                    product, users are fully
+                     focused on the actions they take
+                </p>
+                <a href="#"><button>MORE</button></a>
+            </div>
+                <div class="contract1">
+                    <img src="./images/color-scheme-for-app-design-768x434.jpg" alt="">
+                    <h2>
+                        ATTENTION TO PERFECT COLOR ON WEBSITE DEVELOPMENT
+                    </h2>
+                    <p class="contractP">
+                        We all get used to the fact that functionality of
+                         the website means a lot. However, 
+                        the design is what
+                    </p>
+                    <a href="#"><button>MORE</button></a>
+                </div>
+                    <div class="contract1">
+                        <img src="./images/GBK_Website_ROI-768x434.png" alt="">
+                        <h2>
+                            RESPONSIVE WEBSITE RE-DESIGN QUALITY TEMPLATE
+                        </h2>
+                        <p class="contractP">
+                            Redesigning a website takes a lot of time and money, so it’s
+                             usually very tempting just to avoid this topic
+                        </p>
+                        <a href="#"><button>MORE</button></a>
+                    </div>
+        </section>
+
+        <section id="context">
+            <div class="contract1">
+                <img src="./images/Oblozhka1-e1477302796325-768x402.png" alt="">
+                <h2>
+                    AMAIZING TOP DESIGN TEMPLATES ON WEBSITE
+                </h2>
+                <p class="contractP">
+                    Design is the Appearance of the Site For some reason, 
+                    most people perceive web design as just functionality with correct and well-thought-out 
+                </p>
+                <a href="#"><button>MORE</button></a>
+            </div>
+                <div class="contract1">
+                    <img src="./images/screen-sizes-768x432.jpg" alt="">
+                    <h2>
+                        COMMON SCREEN SIZES FOR RESPONSIVE WEB DESIGN
+                    </h2>
+                    <p class="contractP">
+                        Imagine the situation when 5% of new website visitors use 
+                        the latest iPad or iPhone but your website’s design is 
+                    </p>
+                    <a href="#"><button>MORE</button></a>
+                </div>
+                    <div class="contract1">
+                        <img src="./images/jira-generated-image-static-7c3d3052-2b19-4f38-8500-e04fd17cf311-768x434.png" alt="">
+                        <h2>
+                            HOW TO IMPROVE YOUR BRAND THROUG WEB DESIGN
+                        </h2>
+                        <p class="contractP">
+                            You have a great business and it grows every day. 
+                            You understand the 
+                            necessity of building a brand strategy. But
+                        </p>
+                        <a href="#"><button>MORE</button></a>
+                    </div>
+        </section>
+</body>
+</html>

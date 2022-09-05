@@ -1,0 +1,166 @@
+.header{
+    min-height: 200px;
+    background-color: black;
+}
+
+@media only screen and (min-device-width : 1030px) and (max-device-width : 1336px) {
+    .first {
+        color: yellow;
+        text-align: center;
+        font-size: 3.7rem;
+    }
+    
+    .sec{
+        font-size: 1rem;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .second{
+        border: 5px solid yellow;
+        border-radius: 25px;
+        background-color: beige;
+        padding: 4px 25px;
+        margin: 5px;
+        text-align: center;
+        box-shadow: 5px 10px 20px wheat;/*use 8px and indigo*/
+    }
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px)  {
+    .first {
+        color: yellow;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .sec{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .second{
+        border: 5px solid yellow;
+        border-radius: 25px;
+        background-color: beige;
+        padding: 4px 25px;
+        margin: 5px;
+        text-align: center;
+        box-shadow: 5px 10px 20px wheat;/*use 8px and indigo*/
+    }
+}
+
+
+
+.pimg1 {
+    background-image: url(./images/2000_5cc99be3445c9.webp);
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url(./images/hello-i-m-nik-BR8MqYyOPiU-unsplash.jpg);
+    min-height: 400px;
+}
+.pimg3 {
+    background-image: url(./images/algi-CqJ27tHVulE-unsplash.jpg);
+    min-height: 400px;
+}
+.pimg4 {
+    background-image: url(./images/black-monstera-leaves-background-wallpaper_53876-102420.webp);
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext, H3{
+    color: yellow;
+    padding-bottom: 50px;
+    padding: 10px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase; 
+}
+
+/* @media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px) { 
+}  */
+
+
+/* Laptop screen*/
+@media only screen and (min-device-width : 1030px) and (max-device-width : 1336px) {
+    .textpg {
+        cursor: pointer;
+        font-size: 4.3rem;
+        background: #313534;
+        color: #fff;
+        padding: 20px;
+ } 
+}
+
+/*phone screen*/
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px)  {
+    .textpg {
+        cursor: pointer;
+        font-size: 20px;
+        background: #313534;
+        color: burlywood;
+        padding: 20px;
+    }
+}   
+
+
+
+
+
+
+/* .textpg {
+    cursor: pointer;
+    font-size: 2.3rem;
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+} */
+
+.section {
+    padding: 50px 80px;
+    text-align: center; 
+}
+.section-lit {
+    background: #f4f4f4;
+    color: #666;
+}
+.section-dak {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.condown {
+    background-color: black;
+}
+.menud {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+.copy {
+    color: white;
+    text-align: center;
+}
